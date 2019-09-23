@@ -3,7 +3,8 @@ buildscript {
         springBootVersion = '1.5.3.RELEASE'
         springVersion = '4.3.8.RELEASE'
         gradleVersionProperty = '4.1'
-        karateVersion = '0.9.2'
+        karateVersion = '0.9.4'
+        karateNettyVersion = '0.9.2'
         masterThoughtVersion = '3.8.0'
         activeMqVersion = '5.15.2'
     }
@@ -73,7 +74,7 @@ dependencies {
     runtime 'com.h2database:h2:1.4.196'
     testCompile 'junit:junit'
     testCompile 'com.intuit.karate:karate-junit4:' + karateVersion
-    testCompile 'com.intuit.karate:karate-netty:' + karateVersion
+    testCompile 'com.intuit.karate:karate-netty:' + karateNettyVersion
     testCompile 'org.apache.activemq:activemq-broker:' + activeMqVersion
     testCompile 'org.apache.activemq:activemq-client:' + activeMqVersion
     testCompile 'org.apache.activemq:activemq-kahadb-store:' + activeMqVersion

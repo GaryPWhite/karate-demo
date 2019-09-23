@@ -1,3 +1,4 @@
+.vscode
 .DS_Store
 target/
 .idea
@@ -5,6 +6,7 @@ target/
 .settings
 .classpath
 *.iml
+bin/
 build/
 .gradle
 gradle
